@@ -1,0 +1,25 @@
+#c1{
+    background-color: red;
+}
+#c2{
+    background-color: green;
+}
+#c3{
+    background-color: blue;
+}
+h1{
+    width: 100%;
+    padding-bottom: 50%;
+    text-align: center;
+}
+
+body{
+    display: flex;
+}
+
+@media screen and (max-width: 520px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
